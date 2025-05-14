@@ -347,7 +347,7 @@ function AskDeepSeek() {
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div className="min-h-screen bg-gray-100 py-8">
+      <div className="min-h-screen bg-gray-100">
         <AskDeepSeek />
       </div>
     </ApolloProvider>
