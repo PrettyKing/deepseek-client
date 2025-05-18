@@ -4,6 +4,7 @@ import ChatPage from './pages/Chat';
 import AlgorithmPage from './pages/Algorithm';
 import Layout from './components/Layout';
 import HomePage from './pages/Home';
+import CodeReviewPage from './pages/CodeReview';
 import NotFoundPage from './pages/NotFound';
 
 function App() {
@@ -24,6 +25,11 @@ function App() {
           {/* 聊天页面路由 */}
           <Route index path="chat" element={<ChatPage />} />
           
+          {/* 代码审查页面路由 */}
+          <Route path="code-review" element={<CodeReviewPage />} />
+          
+          {/* 其他页面路由 */}
+
           {/* 算法页面路由 */}
           <Route path="algorithm" element={<AlgorithmPage />} />
           

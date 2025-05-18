@@ -483,7 +483,7 @@ const AlgorithmMindMap = () => {
   };
 
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md max-w-6xl mx-auto my-4">
+    <div className="p-4 bg-white rounded-lg shadow-md max-w-6xl mx-auto my-4 min-w-[960px]">
       <div className="text-2xl font-bold mb-6 text-center">算法学习脉络图</div>
       <div className="overflow-auto p-2">
         <MindMapNode

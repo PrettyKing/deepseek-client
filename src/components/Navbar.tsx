@@ -32,7 +32,7 @@ const Navbar = ({ onToggleDarkMode, isDarkMode }: NavbarProps) => {
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}
               >
-                DeepSeek AI
+                Chalee
               </span>
             </Link>
           </div>
@@ -55,7 +55,43 @@ const Navbar = ({ onToggleDarkMode, isDarkMode }: NavbarProps) => {
                   }
                   end
                 >
-                  聊天
+                  首页
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/chat"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? isDarkMode
+                          ? "text-purple-300 border-b-2 border-purple-300"
+                          : "text-purple-600 border-b-2 border-purple-600"
+                        : isDarkMode
+                        ? "text-gray-300 hover:text-purple-300"
+                        : "text-gray-600 hover:text-purple-600"
+                    } font-medium pb-1`
+                  }
+                >
+                  deepseek 聊天
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/code-review"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? isDarkMode
+                          ? "text-purple-300 border-b-2 border-purple-300"
+                          : "text-purple-600 border-b-2 border-purple-600"
+                        : isDarkMode
+                        ? "text-gray-300 hover:text-purple-300"
+                        : "text-gray-600 hover:text-purple-600"
+                    } font-medium pb-1`
+                  }
+                >
+                  代码审查
                 </NavLink>
               </li>
               <li>
@@ -136,7 +172,7 @@ const Navbar = ({ onToggleDarkMode, isDarkMode }: NavbarProps) => {
               )}
             </button>
 
-            <Link
+            {/* <Link
               to="/chat"
               className="hidden sm:flex items-center space-x-1 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-medium rounded-full shadow-md transition-colors"
             >
@@ -154,7 +190,7 @@ const Navbar = ({ onToggleDarkMode, isDarkMode }: NavbarProps) => {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 ></path>
               </svg>
-            </Link>
+            </Link> */}
           </div>
 
           {/* 移动端菜单按钮 */}

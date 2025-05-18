@@ -129,8 +129,8 @@ function ChatPage() {
   };
 
   return (
-    <div className="p-4 flex items-center justify-center">
-      <div className="w-full max-w-4xl bg-white rounded-3xl overflow-hidden border border-gray-200 shadow-2xl flex flex-col h-[600px]">
+    <div className="p-4 flex items-center justify-center flex-1">
+      <div className="w-full max-w-4xl bg-white rounded-3xl overflow-hidden border border-gray-200 shadow-2xl flex flex-col h-[calc(100vh-238px)]">
         {/* 头部 */}
         <div className="relative bg-gradient-to-r from-purple-400 to-pink-400 p-4 sm:p-6">
           <div className="flex items-center space-x-3">
@@ -458,10 +458,10 @@ function ChatPage() {
               </div>
             </div>
           </div>
-
+{/* 
           <div className="mt-2 text-xs text-center text-gray-400">
             DeepSeek AI助手支持Markdown格式，可以输出代码、表格、列表等富文本 ✨
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

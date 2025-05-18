@@ -12,9 +12,9 @@ const Layout = ({ onToggleDarkMode, isDarkMode }: LayoutProps) => {
     <div className={`flex flex-col min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gradient-to-br from-pink-50 to-blue-50'}`}>
       <Navbar onToggleDarkMode={onToggleDarkMode} isDarkMode={isDarkMode} />
       
-      <main className="flex-grow">
+      {/* <main className="flex-grow flex flex-1"> */}
         <Outlet />
-      </main>
+      {/* </main> */}
       
       <Footer isDarkMode={isDarkMode} />
     </div>
