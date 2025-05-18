@@ -73,7 +73,7 @@ const Navbar = ({ onToggleDarkMode, isDarkMode }: NavbarProps) => {
                     } font-medium pb-1`
                   }
                 >
-                  deepseek 聊天
+                  deepseek 助手
                 </NavLink>
               </li>
               <li>

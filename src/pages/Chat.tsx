@@ -153,7 +153,7 @@ function ChatPage() {
             </div>
             <div>
               <h1 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                DeepSeek AI 助手
+                DeepSeek 助手
               </h1>
               <div className="flex items-center">
                 <div className="w-2 h-2 rounded-full bg-green-400 mr-2"></div>
